@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    color: #2e354f;
+    font-weight: 400;
+}
+
+h1, h2, strong {
+    font-weight: 900;
+    margin: 0;
+}
+
+/* typography */
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ef5839;
+}
+
+a {
+    color: #ef5839
+}
+
+a:hover,
+a:focus {
+    color: #d4b44c;
+}
+
+/* layout */ 
+
+/* in order to extend the background till the edge
+    we have to set the with and margin in the container*/
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+/* you can also center the divs by giving it a width
+    then using margin: 0 auto; */
+
+header {
+    /* width: 620px; */
+    background-color: #2e354f;
+    color: #fff;
+    padding: 45px 0;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+section {
+    /* width: 620px; */
+    padding: 45px 0;
+    /* margin: 0 auto; */
+}
+
+.section-two {
+    background-color: #2e354f;
+    color: #fff;
+}
+
+img {
+    width: 620px;
+}
+
+/* extra details */
+
+.section-one h2 {
+    margin-bottom: 15px;
+}
+
+h1:hover {
+    color: #ef5839;
+}
+
+
+
+/* buttons */ 
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.button-accent {
+    background-color: #ef5839;
+    color: white;
+}
+
+.button-white {
+    color: #2e354f;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: #000;
+}
